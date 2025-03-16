@@ -9,7 +9,10 @@ A virtual filesystem for Midnight Commander to access and manage Docker containe
   * Easily delete supported Docker resources
   * Start a shell into running containers
 
-![Screenshot of Django Admin showing the Django Celery Monitor](screenshot.png "Django Celery Monitor")
+![Screenshot of Midnight Commander with dockerfs showing available containers](screenshots/dockerfs_containers.png "Dockerfs containers")
+![Screenshot of Midnight Commander with dockerfs showing available images](screenshots/dockerfs_images.png "Dockerfs images")
+![Screenshot of Midnight Commander with dockerfs showing available networks](screenshots/dockerfs_networks.png "Dockerfs networks")
+![Screenshot of Midnight Commander with dockerfs showing available volumes](screenshots/dockerfs_volumes.png "Dockerfs volumes")
 
 ## Installation
 
@@ -36,7 +39,7 @@ If the Docker daemon is available via network, start it as:
 ## Contributing
 
 Found a bug or got a feature request? Please report it at
-https://github.com/et16/mc_extfs_docker/issues.
+https://github.com/eht16/mc_extfs_docker/issues.
 
 ## License
 
